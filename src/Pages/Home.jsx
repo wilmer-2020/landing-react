@@ -7,18 +7,6 @@ import Testimonios from "../layouts/Testimonios";
 import { QuienesSomos } from "../layouts/QuienesSomos";
 import Contacto from "./Contacto";
 
-window.addEventListener("scroll", function() {
-  const DistanciaScroll = window.scrollY;
-  const nav = document.querySelector('.nav');
-  const links = nav.querySelectorAll('.link')
-  nav.classList.toggle('distancia-scroll1',DistanciaScroll>290)
-  nav.querySelector('.bannerTitle').classList.toggle('distancia-scrollTitle',DistanciaScroll>290)
-  links.forEach(el => {
-    el.classList.toggle('distancia-scrollTitle',DistanciaScroll>290)
-  });
-  console.log(DistanciaScroll)
-})
-
 const Home = () => {
   return (
     <>

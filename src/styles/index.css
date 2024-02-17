@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #13678A;
+  background-color: #13678a;
 }
 
 header {
@@ -215,7 +215,7 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 .contacto-container .form .form-group label {
-  color: #13678A;
+  color: #13678a;
   font-family: "Poppins";
   *font-weight: bold;
 }
@@ -231,7 +231,7 @@ nav ul li a:hover {
   font-family: "Roboto", sans-serif;
 }
 .contacto-container .form .consulta-title {
-  color: #13678A;
+  color: #13678a;
   font-family: "Poppins";
   margin-bottom: 10px;
 }
@@ -249,7 +249,7 @@ nav ul li a:hover {
   border-radius: 3px;
   border: 1px solid transparent;
   cursor: pointer;
-  background-color: #13678A;
+  background-color: #13678a;
   transition: 0.6s ease;
 }
 .contacto-container .form .buttonEnviar:hover {
@@ -310,7 +310,7 @@ nav ul li a:hover {
   justify-content: center;
   flex-direction: column;
   border-top: transparent;
-  border-bottom: 3px solid #13678A;
+  border-bottom: 3px solid #13678a;
 }
 .beneficios-Container .beneficios .item p {
   margin-top: 50px;
@@ -379,7 +379,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 5px;
-  background-color: #13678A;
+  background-color: #13678a;
   box-shadow: 8px 15px 17px -10px rgba(0, 0, 0, 0.75);
 }
 .testimonios-container .testimonios-text .text .quoteIcon {
@@ -393,14 +393,6 @@ nav ul li a:hover {
 }
 .testimonios-container .testimonios-text .text .testimonios-name {
   font-size: 20px;
-}
-
-.footer {
-  width: 100%;
-  height: 300px;
-  margin-top: 30px;
-  margin-bottom: -18px;
-  background-color: black;
 }
 
 .QuienesSomos {
@@ -439,16 +431,111 @@ nav ul li a:hover {
   background-color: rgba(7, 19, 22, 0.6784313725);
 }
 
-.distancia-scroll1 {
-  background-color: #fffdf8;
-  box-shadow: 10px 9px 11px -14px rgba(0, 0, 0, 0.75);
+.footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: -18px;
 }
-
-.distancia-scroll2 {
-  background-color: #fffdf8;
-  box-shadow: 10px 9px 11px -14px rgba(0, 0, 0, 0.75);
+.footer .footer-header {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  grid-row: 1fr;
+  background-color: rgb(27, 27, 27);
 }
-
-.distancia-scrollTitle {
-  color: #13678A;
+.footer .footer-header .footer-info {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-header .footer-info h3 {
+  font-family: "Poppins";
+  color: #f1efa5;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.footer .footer-header .footer-info p {
+  font-family: "Roboto", sans-serif;
+  color: #a09787;
+  margin-left: 10px;
+  padding: 5px 30px;
+}
+.footer .footer-header .footer-sociales {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-header .footer-sociales h3 {
+  font-family: "Poppins";
+  color: #f1efa5;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.footer .footer-header .footer-sociales .social {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer .footer-header .footer-sociales .social .icon-social {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer .footer-header .footer-sociales .social a {
+  color: #a09787;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.footer .footer-header .footer-sociales .social a:hover {
+  color: white;
+}
+.footer .footer-header .footer-direccion {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-header .footer-direccion h3 {
+  font-family: "Poppins";
+  color: #f1efa5;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.footer .footer-header .footer-direccion .social {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer .footer-header .footer-direccion .social .icon-encuentranos {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer .footer-header .footer-direccion .social p {
+  font-family: "Roboto", sans-serif;
+  color: #a09787;
+}
+.footer .footer-derechos {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+}
+.footer .footer-derechos p {
+  font-family: "Roboto", sans-serif;
+  color: #a09787;
 }/*# sourceMappingURL=index.css.map */
