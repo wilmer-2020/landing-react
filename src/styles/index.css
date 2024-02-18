@@ -111,6 +111,7 @@ nav h1 {
 }
 nav ul {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 nav ul li {
@@ -124,6 +125,28 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: green;
+}
+nav ul .link-container {
+  display: flex;
+  padding: 5px 20px;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 10px 9px 11px -14px rgba(0, 0, 0, 0.75);
+  background-color: green;
+  transition: 0.7s ease;
+}
+nav ul .link-container a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  margin-right: 10px;
+}
+nav ul .link-container .icon-whatsapp {
+  width: 20px;
+  height: 20px;
+}
+nav ul .link-container:hover {
+  background-color: rgb(0, 75, 0);
 }
 
 .container-Map {
