@@ -1,6 +1,5 @@
 import Nav from "./components/Nav";
 import Home from './Pages/Home';
-import Contacto from './Pages/Contacto';
 import Galeria from './Pages/Galeria';
 import { Routes,Route } from 'react-router-dom';
 import './styles/index.css'
@@ -9,8 +8,6 @@ import Footer from "./components/Footer";
 
 
 function App() {
-
- 
 
   return (
     <>

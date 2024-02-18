@@ -108,6 +108,7 @@ nav {
   border-bottom: 1px solid $ColorTitle;
   position: sticky;
   z-index: 300;
+  box-shadow:$ShadowMain;
   transition: 0.2s ease;
   h1 {
     color: $NavColor;

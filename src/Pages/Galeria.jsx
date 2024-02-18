@@ -3,7 +3,6 @@ import getPhotos from "../hooks/getPhotos"
 const Galeria = () => {
   const { photos } = getPhotos();
   const AllPhotos = photos.slice(0, 20)
-  console.log(AllPhotos)
   return (
    
     <div className="containerPhotos">

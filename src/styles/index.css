@@ -102,6 +102,7 @@ nav {
   border-bottom: 1px solid #f1efa5;
   position: sticky;
   z-index: 300;
+  box-shadow: 10px 9px 11px -14px rgba(0, 0, 0, 0.75);
   transition: 0.2s ease;
 }
 nav h1 {
