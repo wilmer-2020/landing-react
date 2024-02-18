@@ -5,6 +5,7 @@ import iconPinterest from "../assets/pinterest.svg";
 import iconHome from "../assets/home.svg";
 import iconPhone from "../assets/phone.svg";
 import iconEmail from "../assets/email.svg";
+import iconWhatsApp from "../assets/whatsapp.svg";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -19,34 +20,46 @@ const Footer = () => {
 
       <div className="footer-sociales">
         <h3>Siguenos</h3>
+
         <div className="social">
         <img src={iconFacebook} alt="" className="icon-social"/>
           <a href="">Portal Brisas del campo</a>
         </div>
+
         <div className="social">
           <img src={iconInstagram} alt="" className="icon-social"/>
           <a href="">Portal Brisas del campo</a>
         </div>
+
         <div className="social">
         <img src={iconPinterest} alt="" className="icon-social"/>
           <a href="">Portal Brisas del campo</a>
         </div>
+        <div className="social">
+        <img src={iconWhatsApp} alt="" className="icon-social"/>
+          <a href="">+504 98431209</a>
+        </div>
+
       </div>
       
       <div className="footer-direccion">
         <h3>Encuentranos</h3>
+
         <div className="social">
         <img src={iconHome} alt="" className="icon-encuentranos"/>
           <p >direccion de las oficinas centrales de la empresa</p>
         </div>
+        
         <div className="social">
         <img src={iconPhone} alt="" className="icon-encuentranos"/>
           <p >+504 33557712</p>
         </div>
+
         <div className="social">
         <img src={iconEmail} alt="" className="icon-encuentranos"/>
           <p >brisasdelcampo@gmail.com</p>
         </div>
+        
       </div>
 
      </section>
